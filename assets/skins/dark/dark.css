@@ -2,7 +2,6 @@
     text-decoration: none;
     position: relative;
     overflow: hidden;
-    display: block; width: 640px; /* ??? */
 }
 .flickr-exif-icon {
     position: absolute;
