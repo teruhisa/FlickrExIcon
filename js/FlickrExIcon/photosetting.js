@@ -91,7 +91,7 @@ var com;
                     this.highiso = false;
                 }
                 ExifISO.prototype.getValue = function () {
-                    var val = "25600";
+                    var val = _super.prototype.getValue.call(this);
                     if(val && val.length > 4) {
                         val = val.substring(0, val.length - 2);
                         this.highiso = true;

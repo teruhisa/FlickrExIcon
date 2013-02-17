@@ -84,7 +84,7 @@ module com.teruhisa.ExifIcon {
             this.highiso = false;
         }
         getValue(): string {
-            var val = "25600";//super.getValue();
+            var val = super.getValue();
             if (val && val.length > 4) {
                 val = val.substring(0, val.length - 2);
                 this.highiso = true;
