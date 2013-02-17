@@ -7,6 +7,7 @@ FlickrExIconはFlickrExを拡張してExif情報のテキストをアイコン�
 ## 使い方
 
 使い方は、下記のHTMLコードをコピーしてご自分のサイトに貼り付けるだけで利用できます。
+ZIPで落とす際はgitでは自動でsubmoduleをパッケージしない為、FlickrExを別にダウンロードする必要があります
 
 ```HTML
     ...
@@ -30,7 +31,7 @@ FlickrExIconはFlickrExを拡張してExif情報のテキストをアイコン�
 
 コードブロックはF-stop / Exposure / ISOのみに対応していて、拡張するのに必要な形は追って追加する予定です。
 
-## Thanks
+## 参考
 
-* http://www.fontsquirrel.com/fonts/TitilliumText
-* https://github.com/drikin/FlickrEx
+* ベースになったプラグイン：https://github.com/drikin/FlickrEx
+* アイコン化に使用したフォント：http://www.fontsquirrel.com/fonts/TitilliumText
